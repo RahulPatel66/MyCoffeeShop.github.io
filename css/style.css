@@ -24,10 +24,11 @@ body{
    background-color: var(--black);
     text-align: center;
     display: flex;
-    /* justify-content: space-evenly; */
+  
     color: white;
     padding-bottom: 1rem;
     position: fixed;
+   
     z-index: 1000;
    border: 1px solid darkslategray;
     
@@ -113,7 +114,7 @@ height: 100%;
     color: whitesmoke;
     min-height:100vh;
    
-    /* background:url(../images/coffee-img.jpg); */
+    width: 100%;
     background-image: url(../images/coffee-img.jpg);
     background-size: cover;
     background-position: center;
@@ -988,7 +989,7 @@ overflow: hidden;
        
     }
     section{
-        padding: 1rem;
+             padding: 2rem;
         
             align-items: center;
             justify-content: center;
@@ -1054,6 +1055,7 @@ overflow: hidden;
 
  html{
      font-size: 50%;
+     
  }
  
 #home{
@@ -1075,14 +1077,21 @@ overflow: hidden;
 
     html{
         font-size: 50%;
+        padding: 2rem;
     }
-
+    section h1{
+        font-size: 2rem;
+    }
+    section h1 span{
+        font-size: 1.5rem;
+    }
    
 #home{
     background-position: left;
         justify-content: center;
         text-align: center;
-  
+         width: 100%;
+
 }
 #home .content h3{
     font-size: 4.3rem;
@@ -1128,13 +1137,14 @@ overflow: hidden;
     width: 100%;
     
 }
-
+ 
 .third-navlist{
-    margin-left: 24rem;
-   
+   margin-left: 20rem;
+    margin-right: 1rem;
+  
  
  
-}
+} 
 
 #navbar .first-navlist{
     width: 20%;
@@ -1151,14 +1161,13 @@ overflow: hidden;
 @media (max-width:320px){
     html{
         font-size: 40%;
-        text-align: center;
-      
+       
        
     }
 
 .third-navlist{
-    margin-left: 23rem;
-    /* text-align: center; */
+   
+    justify-content: space-evenly;
    
  
  
