@@ -1042,6 +1042,8 @@ overflow: hidden;
     margin-left: 24rem;
     /* float: inline-end; */
     align-items: center;
+    margin-right: 1.5rem;
+
     
 }
 #menu-btn{
@@ -1165,10 +1167,9 @@ width: 20rem;
 }
  
 .third-navlist{
-   /* margin-left: 24rem;
-    margin-right: 1rem; */
-  float: right;
-    align-items: center;
+   /* margin-left: 24rem; */
+    margin-right: 1.5rem;
+  
  
 } 
 
